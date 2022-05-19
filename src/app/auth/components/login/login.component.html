@@ -1,0 +1,15 @@
+
+<form class="container">
+  <h1>INICIAR SESIÓN</h1>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+    <input #email type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+    <input #pass type="Contraseña" class="form-control" id="exampleInputPassword1">
+  </div>
+  <button type="button" (click)="login(email.value, pass.value)" class="btn btn-primary">Inicia sesion</button>
+  <a routerLink="/auth/register">¿No tienes cuenta? Registrate</a>
+
+</form>

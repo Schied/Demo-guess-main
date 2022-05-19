@@ -1,0 +1,8 @@
+.contenedor-cajas{
+  display: flex;
+}
+app-products{
+  background-color: #f2f2f2;
+  height: 100vh;
+  margin-right: 20px;
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-crud-angular-20ab4": {
+      "hosting": {
+        "final-angular-guess": [
+          "fir-crud-angular-20ab4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-crud-angular-20ab4"
+  }
+}
