@@ -18,11 +18,8 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-builders/custom-webpack:browser",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "customWebpackConfig": {
-              "path": "./extend.webpack.config.js"
-            },
             "outputPath": "dist/final-angular-guess",
             "index": "src/index.html",
             "main": "src/main.ts",
