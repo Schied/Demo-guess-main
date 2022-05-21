@@ -17,7 +17,7 @@ export class AppComponent {
   ) {
     const navEndEvents$ = this.router.events
     .pipe(
-      filter(event => event instanceof NavigationEnd)
+      filter((event): event is NavigationEnd => event instanceof NavigationEnd)
     );
 
     navEndEvents$.subscribe((event: NavigationEnd) => {
