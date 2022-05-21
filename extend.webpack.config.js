@@ -2,7 +2,7 @@ const { GuessPlugin } = require('guess-webpack');
 const { parseRoutes } = require('guess-parser');
 
 const credentials = require('./credentials.json');
-const viewId = '267363593';
+const viewId = '316216655';
 
 module.exports = {
   plugins: [
